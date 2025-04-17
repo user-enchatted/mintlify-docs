@@ -1,51 +1,92 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Assignbots Documentation",
   "colors": {
     "primary": "#16A34A",
     "light": "#07C983",
     "dark": "#15803D"
   },
   "favicon": "/favicon.svg",
+  "logo": {
+    "light": "/logo/light.svg",
+    "dark": "/logo/dark.svg"
+  },
   "navigation": {
     "tabs": [
       {
         "tab": "Guides",
         "groups": [
           {
-            "group": "Get Started",
+            "group": "Getting Started",
             "pages": [
-              "introduction",
-              "quickstart",
-              "development"
+              "getting-started/introduction",
+              "getting-started/creating-an-account",
+              "getting-started/logging-in"
             ]
           },
           {
-            "group": "Essentials",
+            "group": "Using the Platform",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/settings",
-              "essentials/navigation",
-              "essentials/reusable-snippets"
+              "platform/dashboard-overview",
+              "platform/creating-a-bot",
+              "platform/switching-teams",
+              "platform/creating-a-team",
+              "platform/managing-teams"
+            ]
+          },
+          {
+            "group": "Bot Editor",
+            "pages": [
+              "bot-editor/ai-setup",
+              "bot-editor/tone",
+              "bot-editor/welcome",
+              "bot-editor/knowledge",
+              "bot-editor/visuals",
+              "bot-editor/script"
+            ]
+          },
+          {
+            "group": "How-To",
+            "pages": [
+              "how-to/test-bot",
+              "how-to/duplicate-bot",
+              "how-to/share-bot"
+            ]
+          },
+          {
+            "group": "Settings & Support",
+            "pages": [
+              "settings/account-settings",
+              "settings/data-deletion",
+              "settings/support-&-Contact",
+              "faq"
+            ]
+          },
+          {
+            "group": "Account & Privacy",
+            "pages": [
+              "settings/account-settings",
+              "settings/data-deletion"
+            ]
+          },
+          {
+            "group": "Help & Support",
+            "pages": [
+              "faq",
+              "support-&-Contact"
             ]
           }
+
         ]
       },
       {
         "tab": "API Reference",
         "groups": [
           {
-            "group": "API Documentation",
+            "group": "Endpoints",
             "pages": [
-              "api-reference/introduction"
-            ]
-          },
-          {
-            "group": "Endpoint Examples",
-            "pages": [
+              "api-reference/endpoint/introduction",
               "api-reference/endpoint/get",
               "api-reference/endpoint/create",
               "api-reference/endpoint/delete",
@@ -54,49 +95,25 @@
           }
         ]
       }
-    ],
-    "global": {
-      "anchors": [
-        {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Community",
-          "href": "https://mintlify.com/community",
-          "icon": "slack"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
-        }
-      ]
-    }
-  },
-  "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    ]
   },
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Support & Contact",
+        "href": "/settings/support-&-Contact"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Go to App",
+      "href": "https://assignbots.enchatted.com/"
     }
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "github": "https://github.com/enchatted",
+      "linkedin": "https://linkedin.com/company/enchatted"
     }
   }
 }
