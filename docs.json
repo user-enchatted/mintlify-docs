@@ -3,7 +3,7 @@
   "theme": "mint",
   "name": "Assignbots Documentation",
   "colors": {
-    "primary": "#16A34A",
+    "primary": "#34C5F6",
     "light": "#07C983",
     "dark": "#15803D"
   },
@@ -101,7 +101,7 @@
     "links": [
       {
         "label": "Support & Contact",
-        "href": "/settings/support-&-Contact"
+        "href": "../settings/support-&-Contact"
       }
     ],
     "primary": {
