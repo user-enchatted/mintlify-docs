@@ -65,7 +65,7 @@
             "group": "Help & Support",
             "pages": [
               "faq",
-              "settings/support-&-Contact"
+              "support-&-Contact"
             ]
           }
         ]
@@ -91,7 +91,7 @@
     "links": [
       {
         "label": "Support & Contact",
-        "href": "https://assignbots.enchatted.com/settings/support-&-Contact"
+        "href": "https://assignbots.enchatted.com/support-&-Contact"
       }
     ],
     "primary": {
