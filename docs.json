@@ -10,7 +10,7 @@
   "favicon": "/favicon.svg",
   "logo": {
     "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "dark": "/logo/dark.png"
   },
   "navigation": {
     "tabs": [
@@ -98,7 +98,7 @@
     "primary": {
       "type": "button",
       "label": "Go to App",
-      "href": "https://assignbots.enchatted.com/"
+      "href": "https://app.assignbots.ai/"
     }
   },
   "footer": {
